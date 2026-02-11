@@ -153,3 +153,16 @@ unset __conda_setup
 # <<< conda initialize <<<
 export EDITOR=nvim
 export VISUAL=nvim
+
+# bun completions
+[ -s "/Users/avik/.bun/_bun" ] && source "/Users/avik/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/avik/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/avik/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/avik/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/avik/google-cloud-sdk/completion.zsh.inc'; fi

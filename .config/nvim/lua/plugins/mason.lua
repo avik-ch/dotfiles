@@ -7,7 +7,7 @@ return {
       "css-lsp",
       "typescript-language-server",
       "ocaml-lsp",
-      "pyright", -- Example for Python
+      "python-lsp-server",
       "bash-language-server", -- Example for Bash
       "clangd",
     },
