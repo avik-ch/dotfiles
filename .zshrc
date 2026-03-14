@@ -1,3 +1,5 @@
+clear
+neofetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -121,8 +123,8 @@ export NVM_DIR="$HOME/.nvm"
 wttr() { curl "http://wttr.in/$1"; }
 
 alias ls='colorls'
-alias ccc='cd ~/Documents/UMN/fall\ 2025/CSCI\ 2021/csci2021-fa25'
-alias ccl='cd ~/Documents/UMN/fall\ 2025/CSCI\ 2041/repo-chakr258'
+alias ccc='cd ~/all_repos/spring2026/csci-4061'
+alias ccl='cd ~/all_repos/spring2026/csci-3081w-s26/team-001-25-project'
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:

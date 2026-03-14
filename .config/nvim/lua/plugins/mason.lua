@@ -6,7 +6,6 @@ return {
       "html-lsp",
       "css-lsp",
       "typescript-language-server",
-      "ocaml-lsp",
       "python-lsp-server",
       "bash-language-server", -- Example for Bash
       "clangd",
